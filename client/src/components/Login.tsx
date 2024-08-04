@@ -29,9 +29,10 @@ const Login: React.FC = () => {
 
   return (
     <>
-      <h2>Login</h2>
+    
+      <h2 >Login</h2>
       <form onSubmit={handleSubmit}>
-        <input
+        <input 
           id="username"
           type="text"
           value={username}
